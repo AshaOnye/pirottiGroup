@@ -681,6 +681,27 @@ flex{
   padding: 15px;
 } */
 
+.company-div{
+  background-color: #fff;
+  margin: 20px;
+  height: 150px;
+  width: 420px;
+  border: #000 4px;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.company-div img{
+  padding: 15px;
+  width: 50%px;
+  height: 50%px;
+}
+
+.slider-imgz{
+    margin-left: 20px;
+}
+
 .second-nav li {
   list-style: none;
   
@@ -3303,6 +3324,15 @@ flex{
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 400px;
+  margin-top: 50px;
+}
+
+.tp-section-title3 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 0;
+  color: #fff;
+
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
