@@ -8,7 +8,7 @@ toggleBtn.addEventListener('click', function() {
   // Toggle the visibility of the gallery
   if (gallery.style.display === 'none' || gallery.style.display === '') {
     gallery.style.display = 'flex';
-    toggleBtn.textContent = 'iconElement';
+    toggleBtn.textContent = '+';
   } else {
     gallery.style.display = 'none';
     toggleBtn.textContent = '+';
